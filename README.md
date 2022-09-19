@@ -1,5 +1,5 @@
 # E-Commerce-Website
-This repository contains Shopping Websites by using reactjs
+This repository contains Shopping Website by using reactjs
 
 
 Getting Started with Create React App
