@@ -1,0 +1,141 @@
+/* body{
+ background-color:rgb(255, 255, 255);
+} */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background:white;
+    width:100%; 
+   
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.login-content{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 236, 236);  
+}
+
+.login-details {
+    height: 360px;
+    width: 400px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+    color:#263752;
+    font-weight: bold;
+}
+
+.login-heading{
+    text-align: center;
+    color:black;
+}
+input[type="email"] {
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 10px;
+    padding-left: 30px;
+    outline: 0;
+    font-size: 13px
+}
+
+input[type="password"] {
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 10px;
+    padding-left: 30px;
+    padding-right: 27px;
+    outline: 0
+}
+
+.fa-envelope {
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    top: 15px
+}
+
+.fa-lock {
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 15px
+}
+
+.input-text .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 15px;
+    cursor: pointer
+}
+
+.fa-eye {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 15px;
+    cursor: pointer
+}
+
+#submit {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#submit {
+    height: 40px;
+    width: 30%;
+    border: none;
+    background-color:blue;
+    border-radius: 9px;
+    font-size: 14px;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+#submit :hover {
+    background-color: black;
+}
+
+.forgot {
+    margin-top: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:black;
+}
+
+.forgot a {
+    text-decoration: none;
+    color:blue;
+    font-size: 14px;
+}
+
+.warning {
+    color:red;
+}

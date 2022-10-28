@@ -1,0 +1,78 @@
+
+/* Add Product CSS */
+
+.product-add-container{
+  background-color: white;
+}
+.product-container{
+  max-height: fit-content;
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+}
+.box{
+  width: 20%;
+  height: 350px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+.product_image{
+  width: 290px;
+  height: 200px;
+  object-fit: contain;
+}
+.add-to-cart{
+  border: none;
+  color:white;
+  background-color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:10px 10px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.price{
+  color: black;
+  font-size: 1rem;
+  font-family: "stylish, sans serif";
+  padding:10px;
+
+}
+.main-container{
+  background-color: #97394e;
+  padding:10px;
+  height: 60px;
+  width:100%;
+
+/* margin: 5px; */
+}
+.categories{
+  float:left;
+}
+.btn{
+  padding: 10px;
+  background-color: #97394e;
+  color:white;
+  border:none;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.search-bar{
+  float:right;
+  /* padding: 5px; */
+ 
+}
+.input-field{
+   height: 35px;
+   width: 300px;
+   border-radius: 5px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:20px;
+}
